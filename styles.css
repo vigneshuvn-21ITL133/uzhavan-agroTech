@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.container h3{
+    text-align: center;
+    color: rgb(255, 132, 0);
+    position: relative;
+    right: 650px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.menu ul li {
+   list-style: none;
+    display: inline;
+    color: yellowgreen;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    padding: 40px;   
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(83, 123, 2);
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(151, 232, 129));
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    height: auto;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    font-family: "Roboto Mono", monospace;
+    background-color: bisque;
+    
+}
+.grid-container .child1{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(84, 223, 46));
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.grid-container .child2{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(105, 211, 63));
+    border-radius: 20px;
+    text-align: center;
+}
+
+.grid-container .child3{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(104, 235, 86));
+    border-radius: 20px;
+    text-align: center;
+}
+
+.grid-container .child4{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(104, 235, 86));
+    border-radius: 20px;
+    text-align: center;
+}
+
+.grid-container .child5{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(104, 235, 86));
+    border-radius: 30px;
+    text-align: center;
+}
+
+.grid-container .child6{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(104, 235, 86));
+    border-radius: 30px;
+    text-align: center;
+}
+
+.grid-container .child7{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(104, 235, 86));
+    border-radius: 30px;
+    text-align: center;
+}
+
+.grid-container .child8{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(104, 235, 86));
+    border-radius: 30px;
+    text-align: center;
+}
+
+.grid-container .child9{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(104, 235, 86));
+    border-radius: 30px;
+    text-align: center;
+}
+
+.grid-container .child10{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(104, 235, 86));
+    border-radius: 30px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(rgb(248, 239, 239),rgb(54, 205, 12));
+    color: rgb(132, 127, 127);
+    padding: 15px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+select {
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+img{
+    margin-right: 45%;
+    border-radius: 100%;
+    height:110px;
+    left: 50px;
+    border-style: groove;
+    border-color: rgb(180, 255, 114);
+}
+
+
+img:hover{
+    border-radius: 100%;
+    height: 120px;
+    transition: 0.5s;
+}
+
+ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(33, 226, 8);
+    transition: 0.5s;
+}
+
+
+.child1:hover{
+    transform: scale(1.1);
+}
+
+.child2:hover{
+    transform: scale(1.1);
+}
+.child3:hover{
+    transform: scale(1.1);
+}
+.child4:hover{
+    transform: scale(1.1);
+}
+.child5:hover{
+    transform: scale(1.1);
+}
+.child6:hover{
+    transform: scale(1.1);
+}
+.child7:hover{
+    transform: scale(1.1);
+}
+.child8:hover{
+    transform: scale(1.1);
+}
